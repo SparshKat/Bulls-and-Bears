@@ -5,8 +5,7 @@ function isLoggedIn(req, res, next) {
   if (req.user) {
     return next()
   } else {
-    console.log('you don\'t have permission')
-    res.redirect('/')
+    return next();
   }
 }
 
