@@ -70,7 +70,7 @@ class Company extends Component {
         }
       )
       .then(data => {
-        console.log(data);
+        //console.log(data);
         if(data.data.msg!=undefined)
         {
           toast.error("Can't buy stock due to some reason");
@@ -127,7 +127,7 @@ class Company extends Component {
         }
       )
       .then(data => {
-        console.log(data);
+        //console.log(data);
         if(data.data.msg!=undefined)
         {
           toast.error("Can't buy short due to some reason");
@@ -155,7 +155,7 @@ class Company extends Component {
         }
       )
       .then(data => {
-        console.log(data);
+        //console.log(data);
         if(data.data.msg!=undefined)
         {
           toast.error("Can't cover stock due to some reason");
@@ -171,14 +171,14 @@ class Company extends Component {
   }
 
   componentDidMount() {
-    console.log("props", this.props);
+    //console.log("props", this.props);
     let self = this;
     axios
       .get(url + "/company_detail/" + this.props.match.params.id, {
         withCredentials: true
       })
       .then(data => {
-        console.log(data.data);
+        //console.log(data.data);
         self.setState({
           name: data.data.name,
           symbol: data.data.symbol,
@@ -219,7 +219,7 @@ class Company extends Component {
     this.setState({
       [e.target.id]: parseInt(e.target.value)
     });
-    console.log(e.target.value);
+    //console.log(e.target.value);
   }
 
   render() {
