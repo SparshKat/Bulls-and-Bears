@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/VibhorCodecianGupta/Bulls-and-Bears.svg?branch=develop)](https://travis-ci.com/VibhorCodecianGupta/Bulls-and-Bears)
-
 # Bulls and Bears
 
 Your favourite virtual share market simulation is back. Trade away!
