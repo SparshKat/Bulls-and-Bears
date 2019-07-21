@@ -18,7 +18,7 @@ Here is a working live demo :  https://bull-and-bears19.herokuapp.com/ (since it
 ## Mobile support
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-![](mobile.gif =540x)
+<img src="mobile.gif" width="338px" height="731px"/>
 
 ## Instructions to Run
 
