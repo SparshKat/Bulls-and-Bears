@@ -12,7 +12,6 @@ Here is a working live demo :  https://bull-and-bears19.herokuapp.com/ (since it
 
 
 ## Landing Page
-Currently it is just a prototype which will be developed further.
 
 ![](PC.gif)
 
@@ -64,7 +63,9 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 ## Built with 
 
 - [ReactJs](https://reactjs.org/) - React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
-- [FireBase](https://firebase.google.com/) -Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.
+- [NodeJs](https://nodejs.org/en/) -As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
+- [MongoDB](https://www.mongodb.com/) -MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema.
+- [ExpressJs](https://expressjs.com/) -Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
   
 
 
