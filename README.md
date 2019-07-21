@@ -7,11 +7,25 @@ This year's edition is developed using Node.js and React and `yarn` is the packa
 - [Yarn](https://yarnpkg.com/lang/en/)
 - [Node](https://nodejs.org/en/)
 
+## Demo
+Here is a working live demo :  https://bull-and-bears19.herokuapp.com/ (since it is free version of heroku it is little slower)
+
+
+## Landing Page
+Currently it is just a prototype which will be developed further.
+
+![](PC.gif)
+
+## Mobile support
+The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
+
+![](mobile.gif)
+
 ## Instructions to Run
 
 1. `yarn install --production=false` to install the dependencies and dev dependencies. You need to be in the project root for this.
 
-2. `yarn run start` to start the development server
+2. `yarn run start_dev` to start the development server
 
 3. `yarn run prod` to start the production server
 
@@ -47,11 +61,12 @@ This year's edition is developed using Node.js and React and `yarn` is the packa
 
   4. Conflicts occur when the same piece of code has been modified in one way by you, and in some other way in the parent repo, and you obviously don't have those modifications updated in your fork. In case of merge conflicts, your editor will give you two choices in the same piece of code which you will have to manually resolve by choosing what you want to keep and you don't. Just delete the code snippet you don't want, and keep the one you do. Once you do this for every conflict, simply commit the changes and push them to your fork.
 
-  
-## Maintainers
+## Built with 
 
-1. [Vibhor Gupta](https://github.com/VibhorCodecianGupta)
-2. [Gaurav Tiwari](https://github.com/thegauravtiwari)
+- [ReactJs](https://reactjs.org/) - React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+- [FireBase](https://firebase.google.com/) -Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.
+  
+
 
 
 

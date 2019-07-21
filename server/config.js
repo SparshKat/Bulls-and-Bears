@@ -4,11 +4,14 @@ const config = {
 
 switch (config.DEPLOY) {
 
-  case 'localhost':
+  case 'localhost': config.SERVER_URL = 'http://localhost:8080',
+    config.SECRETS = require('./secrets.json')
+
+    break
   default:
 
     config.SERVER_URL = 'http://localhost:8080',
-    config.SECRETS = require('./secrets-sample.json')
+      config.SECRETS = require('./secrets-sample.json')
 
     break
 }
